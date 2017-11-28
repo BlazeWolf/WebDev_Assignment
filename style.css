@@ -1,12 +1,8 @@
-h1	{
-	font-family: "Arial Black", Gadget, sans-serif;
-    color: #081336;
-    font-size: 45px;
-    line-height: 50px;
-}
-
-.loading {
-	text-align: left;
+body {
+	color: #FFFFFF;
+	font-size: 20px;
+	line-height: 50px;
+	background-color: #000000
 }
 
 #wrapper {
@@ -16,6 +12,30 @@ h1	{
   background-color: #727575;
   padding-right: 10px;
   padding-left: 10px;
+}
+
+div #results {
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #727575;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #0A00FF;
+	font-size: 30px;
+	line-height: 50px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+
+h1	{
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #F4DD66;
+	font-size: 45px;
+	line-height: 50px;
+}
+
+.loading {
+	text-align: left;
 }
 
 @media (min-width: 40em) 
